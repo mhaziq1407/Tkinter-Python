@@ -1,0 +1,18 @@
+from tkinter import *
+
+root = Tk()
+
+myinput = Entry(root, width=50, bg = "Yellow" ,borderwidth = 5)
+
+myinput.pack()
+
+
+def myclick():
+    mylabel = Label(root, text= "Hello " + myinput.get())
+    mylabel.pack()
+
+mybutton = Button(root, text="Enter your name",padx=50, pady=50, command = myclick, fg= "blue", bg="yellow")
+
+mybutton.pack()
+
+root.mainloop()
