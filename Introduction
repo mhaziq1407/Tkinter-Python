@@ -1,0 +1,9 @@
+from tkinter import *
+
+root = Tk()
+
+mylabel = Label(root, text = "My Name Is Haziq, i love python coding")
+
+mylabel.pack()
+
+root.mainloop()
